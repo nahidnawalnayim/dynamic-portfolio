@@ -4,7 +4,7 @@ var conn = mysql.createConnection({
   user: 'root',      // Replace with your database username
   password: '',      // Replace with your database password
   database: 'my-node', // // Replace with your database Name
- port:443
+
 }); 
 
 conn.connect(function(err) {
